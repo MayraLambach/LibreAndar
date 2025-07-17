@@ -1,0 +1,44 @@
+[
+  {
+    "linea": "113",
+    "imagen": "media/img/113dos.jpg",
+    "alt": "colectivo 113",
+    "accesible": true,
+    "tipoRampa": "Tapa manual/Interna"
+  },
+  {
+    "linea": "8",
+    "imagen": "media/img/8.jpg",
+    "alt": "colectivo 8",
+    "accesible": true,
+    "tipoRampa": "Tapa manual/Interna"
+  },
+  {
+    "linea": "55",
+    "imagen": "media/img/55.jpg",
+    "alt": "colectivo 55", 
+    "accesible": true,
+    "tipoRampa": "Interna"
+  },
+  {
+    "linea": "146",
+    "imagen": "media/img/146.jpeg",
+    "alt": "colectivo 146",
+    "accesible": true,
+    "tipoRampa": "Tapa manual"
+  },
+  {
+    "linea": "298",
+    "imagen": "media/img/298.jpeg",
+    "alt": "colectivo 298",
+    "accesible": false,
+    "tipoRampa": "No tiene"
+  },
+  {
+    "linea": "620",
+    "imagen": "media/img/620.jpeg",
+    "alt": "colectivo 620",
+    "accesible": false,
+    "tipoRampa": "No tiene"
+  }
+]
