@@ -13,14 +13,16 @@ async function cargarJSON() {
         data.forEach(colectivo => {
             contenedorColectivos.innerHTML += `
             <div class="item">
-                <img class="bondi-img" src="${colectivo.imagen}" alt="colectivo 113" width="100"></img>
+                <div class="image-container">
+                    <img class="bondi-img" src="${colectivo.imagen}" alt="colectivo 113" width="100"></img>
+                </div>
                 <h2>${colectivo.linea}</h2>
-                <h3 class="item-tit">Accesibilidad</h3>
-                <p class="descripcion-item">
-                    Unidades accesibles: ${colectivo.accesible ? "SI" : "NO"}</br>
-                    Tipo de rampa: ${colectivo.tipoRampa}
-                </p>
-                <button class="bt-item">Ver recorrido</button>
+                 <h3 class="item-tit">Accesibilidad</h3>
+                 <p class="descripcion-item">
+                     Unidades accesibles: ${colectivo.accesible ? "SI" : "NO"}</br>
+                     Tipo de rampa: ${colectivo.tipoRampa}
+                 </p>
+                 <button class="bt-item">Ver recorrido</button>
             </div>
         `;
         seccionColectivos.append(contenedorColectivos);   
