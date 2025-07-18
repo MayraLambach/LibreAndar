@@ -43,4 +43,9 @@ function mostrarMsj(evt) {
 const btnForm = document.getElementById("bt-form");
 
 //no está cargando los datos
-btnForm.addEventListener("click", validarForm())
+btnForm.addEventListener("click", function(event){
+    event.preventDefault;
+    if (validarForm()) {
+        mostrarMsj()
+}
+}) 
