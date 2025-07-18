@@ -14,7 +14,7 @@ async function cargarJSON() {
             contenedorColectivos.innerHTML += `
             <div class="item">
                 <div class="image-container">
-                    <img class="bondi-img" src="${colectivo.imagen}" alt="colectivo 113" width="100"></img>
+                    <img class="bondi-img" src="${colectivo.imagen}" alt="${colectivo.alt}" width="100"></img>
                 </div>
                 <h2>${colectivo.linea}</h2>
                  <h3 class="item-tit">Accesibilidad</h3>
@@ -22,8 +22,10 @@ async function cargarJSON() {
                      Unidades accesibles: ${colectivo.accesible ? "SI" : "NO"}</br>
                      Tipo de rampa: ${colectivo.tipoRampa}
                  </p>
-                 <button class="bt-item">Ver recorrido</button>
-            </div>
+                <a href="${colectivo.recorrido}">
+                <button id="btn-recorrido" class="bt-item">Ver recorrido</button>
+                </a> 
+                </div>
         `;
         seccionColectivos.append(contenedorColectivos);   
         })

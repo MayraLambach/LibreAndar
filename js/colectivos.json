@@ -4,41 +4,47 @@
     "imagen": "media/img/113dos.jpg",
     "alt": "colectivo 113",
     "accesible": true,
-    "tipoRampa": "Tapa manual/Interna"
+    "tipoRampa": "Tapa manual/Interna",
+    "recorrido": "https://moovitapp.com/index/es-419/transporte_p%C3%BAblico-line-113-Buenos_Aires-1602-853127-92479048-0"
   },
   {
     "linea": "8",
     "imagen": "media/img/8.jpg",
     "alt": "colectivo 8",
     "accesible": true,
-    "tipoRampa": "Tapa manual/Interna"
+    "tipoRampa": "Tapa manual/Interna",
+    "recorrido": "https://moovitapp.com/index/es-419/transporte_p%C3%BAblico-line-8-Buenos_Aires-1602-853186-98490919-0"
   },
   {
     "linea": "55",
     "imagen": "media/img/55.jpg",
     "alt": "colectivo 55", 
     "accesible": true,
-    "tipoRampa": "Interna"
+    "tipoRampa": "Interna",
+    "recorrido": "https://moovitapp.com/index/es-419/transporte_p%C3%BAblico-line-55-Buenos_Aires-1602-1364157-92480667-0"
   },
   {
     "linea": "146",
     "imagen": "media/img/146.jpeg",
     "alt": "colectivo 146",
     "accesible": true,
-    "tipoRampa": "Tapa manual"
+    "tipoRampa": "Tapa manual",
+    "recorrido": "https://moovitapp.com/index/es-419/transporte_p%C3%BAblico-line-146-Buenos_Aires-1602-853169-62437792-0"
   },
   {
     "linea": "298",
     "imagen": "media/img/298.jpeg",
     "alt": "colectivo 298",
     "accesible": false,
-    "tipoRampa": "No tiene"
+    "tipoRampa": "No tiene",
+    "recorrido": "https://moovitapp.com/index/es-419/transporte_p%C3%BAblico-line-298-Buenos_Aires-1602-853154-185472544-0"
   },
   {
     "linea": "620",
     "imagen": "media/img/620.jpeg",
     "alt": "colectivo 620",
     "accesible": false,
-    "tipoRampa": "No tiene"
+    "tipoRampa": "No tiene",
+    "recorrido": "https://moovitapp.com/index/es-419/transporte_p%C3%BAblico-line-620-Buenos_Aires-1602-853883-98491406-15"
   }
 ]

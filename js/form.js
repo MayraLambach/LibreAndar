@@ -34,20 +34,15 @@ function validarForm(){
     return esValido
 }
 
-function mostrarMsj(evt) {
-    evt.preventDefault()
-    //console.log("Gracias por contartarse")
-    document.getElementById('msg').innerText = "Mensaje recibido. Gracias por contartarse"
-} 
 //boton
 const btnForm = document.getElementById("bt-form");
 
-//no está cargando los datos
+//Validar datos al clickear el botón
 btnForm.addEventListener("click", function(event){
     event.preventDefault;
     if (validarForm()) {
         const msg = document.getElementById('msg')
-        msg.textContent = "Mensaje recibido. Gracias por contartarse"
+        msg.textContent = "Mensaje recibido. ¡Gracias por contartarse!"
         msg.style.display ='block';
     } else {
         errorMsg.style.display ='none';
