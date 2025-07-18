@@ -46,6 +46,10 @@ const btnForm = document.getElementById("bt-form");
 btnForm.addEventListener("click", function(event){
     event.preventDefault;
     if (validarForm()) {
-        mostrarMsj()
-}
+        const msg = document.getElementById('msg')
+        msg.textContent = "Mensaje recibido. Gracias por contartarse"
+        msg.style.display ='block';
+    } else {
+        errorMsg.style.display ='none';
+    }
 }) 
